@@ -1,0 +1,54 @@
+.wrapper {
+  position: sticky;
+  top: 0;
+  z-index: 3;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  background-color: rgb(0, 0, 0);
+  padding: 20px 30px;
+}
+
+.wrapperHome {
+  position: sticky;
+  top: 0;
+  z-index: 3;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgb(0, 0, 0);
+  padding: 0 30px 0 30px;
+}
+
+.navLink {
+  text-decoration: none;
+  color: white;
+  padding: 5px;
+  transition: 0.3s;
+
+  &:hover {
+    color: #e59a00;
+  }
+}
+
+.navLinkLogIn {
+  border: 1px solid #e59a00;
+  border-radius: 5px;
+  padding: 10px 20px 10px;
+}
+
+.btnSmall {
+  background: none#e59a00;
+  border: none;
+  border-radius: 5px;
+  padding: 10px;
+  color: #444444;
+  font-size: 18px;
+  margin-bottom: 30px;
+  margin-top: 20px;
+
+  &:hover {
+    background-color: #14bc12;
+    border: none;
+  }
+}

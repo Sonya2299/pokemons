@@ -1,0 +1,44 @@
+.wrapper {
+  display: flex;
+  background: url(../../../static/images/pikachu.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  padding: 100px 0px 240px 200px;
+}
+
+.text {
+  color: #c3c3c3;
+}
+
+.title {
+  color: #e59a00;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+
+  font-size: 50px;
+}
+
+.title2 {
+  color: #c3c3c3;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  font-size: 50px;
+}
+.title3 {
+  color: #c3c3c3;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 25px;
+}
+
+.signUpLink {
+  text-decoration: none;
+  color: #c3c3c3;
+  border: 1px solid #e59a00;
+  padding: 10px 40px;
+  border-radius: 5px;
+
+  &:hover {
+    color: #e59a00;
+  }
+}

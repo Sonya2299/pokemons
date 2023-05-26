@@ -1,0 +1,26 @@
+.wrapper {
+  display: flex;
+  align-items: end;
+}
+
+.iconWrapper {
+  display: flex;
+  flex-direction: column;
+  width: 130px;
+  align-items: center;
+  padding: 5px;
+  border-bottom: #d9d8d6 1px solid;
+}
+
+.value {
+  color: #333;
+  font-size: 18px;
+  font-weight: 600;
+  border-bottom: #d9d8d6 1px solid;
+  width: 30px;
+}
+
+.statName {
+  color: #c3c3c3;
+  font-size: 14px;
+}
